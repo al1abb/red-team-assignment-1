@@ -4,7 +4,7 @@ def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
 def brute_force(input_password):
-    with open('/home/kali/Desktop/Python - Red Team Assignment 1/5 - Brute-force Password Cracker/wordlist.txt', 'r') as file:
+    with open('1M_passwords.txt', 'r') as file:
         wordlist = file.read().splitlines()
         print(wordlist)
 

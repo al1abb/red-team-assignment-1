@@ -7,7 +7,6 @@ MD5: d5dde22b761dc802fcf173b415a9c50b
 SHA1: b00919535429bde4820b97075f80fff6e3e1fe22
 SHA256: d9f3fb0ce109cebe053aec20deeff239a13f1a281d8288236afa66941e120545
 """
-
 def calculate_hash(file_path, hash_function, user_provided_hash):
     # BUF_SIZE is totally arbitrary, change for your app!
     BUF_SIZE = 65536  # lets read stuff in 64kb chunks!
