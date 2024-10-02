@@ -9,7 +9,7 @@ def brute_force(hashed_input_password):
         print(wordlist)
 
         for word in wordlist:
-            hashed_word = hash_password(word)  # Hash each word in the wordlist
+            hashed_word = hash_password(word)
             if hashed_input_password == hashed_word:
                 print(f"Password found: {word}")
                 return
